@@ -64,6 +64,9 @@ body {
   letter-spacing: -10%;
   color: #ffffff;
   padding: 10px 0;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
 }
 
 .Meme input {
@@ -74,7 +77,9 @@ body {
   font-size: 0.75rem;
   line-height: 14px;
   color: #0d0d0d;
-  padding: 10px 0 11px 11px;
+  text-indent: 11px;
+  padding: 10px 0;
   border: 1px solid #d5d4d8;
   border-radius: 5px;
+  font-family: inherit;
 }
