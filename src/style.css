@@ -32,7 +32,7 @@ body {
   display: flex;
 }
 
-.Header h1 {
+.Header h2 {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
