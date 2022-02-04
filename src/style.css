@@ -4,4 +4,50 @@
 
 body {
   margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+.App {
+  max-width: 550px;
+  margin: 0 auto;
+  border: 3px solid red;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.Header .troll-img {
+  max-width: 100%;
+  width: 30px;
+  height: 26px;
+  align-self: center;
+  margin-left: 20px;
+  margin-right: 7px;
+}
+
+.Header .title {
+  display: flex;
+}
+
+.Header h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  color: #ffffff;
+  margin: 0;
+  align-self: center;
+}
+
+.Header .project-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* text-align: right; */
+  color: #ffffff;
 }
