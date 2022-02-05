@@ -86,4 +86,6 @@ body {
 
 .Meme .memeImg {
   width: 100%;
+  border-radius: 2px;
+  margin: 36px 0 15px;
 }
