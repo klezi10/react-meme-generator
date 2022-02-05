@@ -83,3 +83,7 @@ body {
   border-radius: 5px;
   font-family: inherit;
 }
+
+.Meme .memeImg {
+  width: 100%;
+}
