@@ -89,3 +89,30 @@ body {
   border-radius: 2px;
   margin: 36px 0 15px;
 }
+
+.Meme .meme-section {
+  position: relative;
+}
+
+.Meme .meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 35px 0;
+  font-family: Impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 20px #aaaaaa;
+}
+
+.top-text {
+  top: 0;
+}
+
+.bottom-text {
+  bottom: -10px;
+}

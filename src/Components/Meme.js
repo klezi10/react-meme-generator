@@ -28,7 +28,11 @@ export default function Meme() {
           Get a new meme image 🖼️
         </button>
       </div>
-      <img src={meme.randomImage} alt="random meme" className="memeImg" />
+      <div className="meme-section">
+        <img src={meme.randomImage} alt="random meme" className="memeImg" />
+        <h2 className="meme-text top-text">One does not simply</h2>
+        <h2 className="meme-text bottom-text">Walk into mordor</h2>
+      </div>
     </div>
   );
 }
