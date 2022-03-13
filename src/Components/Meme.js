@@ -8,10 +8,20 @@ export default function Meme() {
   });
   const [allMemeImages, setAllMemeImages] = useState([]);
 
+  //useEffect w/o async
+  // useEffect(() => {
+  //   fetch('https://api.imgflip.com/get_memes')
+  //     .then(response => response.json())
+  //     .then(data => setAllMemeImages(data.data.memes))
+  // }, [])
+
   useEffect(() => {
-    fetch('https://api.imgflip.com/get_memes')
-      .then(response => response.json())
-      .then(data => setAllMemeImages(data.data.memes))
+    async function getMeme() {
+      const res = await fetch('https://api.imgflip.com/get_memes')
+      const data = await res.json()
+      setAllMemeImages(data.data.memes)
+    }
+    getMeme()
   }, [])
 
   function getMemeImg() {
