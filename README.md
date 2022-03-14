@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Built with
 
-- HTML5
+- HTML
 - CSS
 - API integration
 - React (state management, effect hook, forms)
